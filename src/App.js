@@ -27,13 +27,13 @@ function App() {
         <Header />
         <div className="container-fluid">
           <Switch>
-            <Route exact path="/contact">
+            <Route exact path="/webbookz/contact">
               <Contact/>
             </Route>
-            <Route exact path="/shop">
+            <Route exact path="/webbookz/shop">
               <Shop />
             </Route>
-            <Route exact path="/">
+            <Route exact path="/webbookz">
               <Home />
             </Route>
           </Switch>

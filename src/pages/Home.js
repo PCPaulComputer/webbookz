@@ -15,8 +15,8 @@ const Home = () => {
           <h2 className="mt-3">Welcome to WebBookz!</h2>
           <p>WebBookz contains various books about programming including web design and development. 
           There are also books that can be used in understanding problem solving, communication and Computer Science principles. 
-          Learn how to navigate about resources that helps you design abd build your own website, desktop and mobile applications.</p>
-          <Link className="text-light btn-lg" to="/shop"> <Button color="webColor1">Buy Now</Button></Link>
+          Learn how to navigate about resources that helps you design and build your own website, desktop and mobile applications.</p>
+          <Link className="text-light btn-lg" to="/webbookz/shop"> <Button color="webColor1">Buy Now</Button></Link>
           <br />
           <br />
           <h2 className="text-center">Why Shop at WebBookz</h2>

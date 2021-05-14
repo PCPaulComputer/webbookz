@@ -14,20 +14,20 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <Link className="navbar-brand" to="/"><img src={logo} alt="logo" className="w-50 h-50"/></Link>
+          <Link className="navbar-brand" to="/webbookz"><img src={logo} alt="logo" className="w-50 h-50"/></Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link font-weight-bold" to="/">Home <span class="sr-only">(current)</span></Link>
+                <Link className="nav-link font-weight-bold" to="/webbookz">Home <span class="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link font-weight-bold" to="/shop">Shop</Link>
+                <Link className="nav-link font-weight-bold" to="/webbookz/shop">Shop</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link font-weight-bold" to="/contact">Contact</Link>
+                <Link className="nav-link font-weight-bold" to="/webbookz/contact">Contact</Link>
               </li>            
             </ul>
           </div>
